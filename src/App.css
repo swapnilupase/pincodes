@@ -1,0 +1,58 @@
+.App {
+  background-color: #25c386; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #25c386, #24b7c1);
+  min-height: 100vh;
+}
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.search-wrapper label,
+.search-wrapper input,
+.search-wrapper button {
+  padding: 4px 8px;
+  font-size: 13px;
+}
+.search-wrapper button {
+  background: yellow;
+  border: none;
+  margin-left: 5px;
+}
+.search-wrapper label {
+  color: #ffffff;
+  font-weight: 600;
+}
+.error {
+  color: #d8000c;
+  background-color: #ffbaba;
+  background-image: url("https://i.imgur.com/GnyDvKN.png");
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+/* 
+tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+.table {
+  margin: 15px 30px;
+}
+.table-wrapper {
+  border: 1px solid #fff;
+  padding: 30px 15px;
+}
