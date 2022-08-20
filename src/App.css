@@ -55,4 +55,5 @@ tr:nth-child(even) {
 .table-wrapper {
   border: 1px solid #fff;
   padding: 30px 15px;
+  overflow: auto;
 }
